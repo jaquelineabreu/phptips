@@ -1,9 +1,8 @@
-<?php
 define("DATA_LAYER_CONFIG", [
     "driver" => "mysql",
     "host" => "localhost",
     "port" => "3306",
-    "dbname" => "datalayer",
+    "dbname" => "datalayer_example",
     "username" => "root",
     "passwd" => "",
     "options" => [
@@ -13,6 +12,3 @@ define("DATA_LAYER_CONFIG", [
         PDO::ATTR_CASE => PDO::CASE_NATURAL
     ]
 ]);
-
-
- ?>
